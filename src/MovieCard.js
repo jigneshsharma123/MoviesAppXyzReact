@@ -18,7 +18,7 @@ class MovieCard extends React.Component{
     render(){
         //Destructing the state object in render function
         const {title, plot, poster, price, rating} =  this.state;
-          
+          //state is use for the sotring and trackign  the state of the varibale
         return(
             <div className="main">
 
